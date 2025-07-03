@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#background {
+  background-image: url(./images/background.png);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+#main-container {
+  height: 100%;
+  position: relative;
+}
+#hole-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  gap: 16px;
+  position: absolute;
+  left: 450px;
+  top: 350px;
+}
+
+.Hole {
+  background-image: url(./images/hole.png);
+  background-position: center;
+  background-size: cover;
+  height: 54px;
+  width: 100px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.Mole {
+  background-image: url(./images/mole.png);
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 5px;
+  left: 25px;
+  display: none;
+}
+#scoreBorder{
+  border: 2px solid black;
+  border-radius: 15px;
+  position: absolute;
+  padding: 20px;
+  left: 300px;
+  top: 100px;
+}
+#start-button{
+  position: relative;
+  left: 520px;
+  top: 600px;
+}
+#restart-button{
+  position: relative;
+  left: 700px;
+  top: 580px;
+}
